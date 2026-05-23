@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 interface CustomButtonProps {
-  title: string;.
+  title: string;
 
   onPress: (event: GestureResponderEvent) => void;
   variant?: 'primary' | 'secondary' | 'danger';
